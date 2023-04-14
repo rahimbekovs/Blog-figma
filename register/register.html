@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../bootstrapp/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./register.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="menu">
+                    <img src="../img/icons/haeder-logo.svg" alt="header-logo" class="menu__logo">
+                    <div class="hamburger">
+                        <span class="hamburger__span"></span>
+                        <span class="hamburger__span"></span>
+                        <span class="hamburger__span"></span>
+                    </div>
+                    <div class="menu__bar">
+                        <ul class="menu__ul">
+                            <li class="menu__li">
+                                <a href="../index.html" class="menu__ul-a">Home</a>
+                            </li>
+                            <li class="menu__li">
+                                <a href="../blogs/blogs.html" class="menu__ul-a">Blog</a>
+                            </li>
+                            <li class="menu__li">
+                                <a href="../about-us/about.html" class="menu__ul-a">About Us</a>
+                            </li>
+                            <li class="menu__li">
+                                <a href="../register/register.html" class="menu__ul-a">Register</a>
+                            </li>
+                        </ul>
+                        <button class="menu__btn"><a href="../login/login.html">Login</a></button>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="register-sec">
+            <div class="container">
+                <h2 class="register-h2 mt-5 mb-5">Register</h2>
+                <div class="register">
+                    <form class="form" action="https://echo.htmlacademy.ru/" method="POST">
+                        <input class="form__inp form__fname mb-3" type="text" placeholder="Firstname">
+                        <span class="form__span1 spann"></span> <br>
+                        <input class="form__inp form__lname" type="text" placeholder="Lastname"> <br>
+                        <span class="form__span2 spann"></span> <br>
+                        <input class="form__inp form__user" type="text" placeholder="Username"> <br>
+                        <span class="form__span3 spann"></span> <br>
+                        <input class="form__inp password__inp " type="password" placeholder="Password"> <br>
+                        <span class="form__span4 spann"></span> <br>
+                        <input class="form__inp cpassword__inp " type="password" placeholder="Confirm password"> <br>
+                        <span class="form__span5 spann"></span> <br>
+                        <br>
+                        <button class="form__btn mt-5 m-lg-5">Register</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer mt-5 d-flex justify-content-between align-items-center">
+                <div class="footer__left mt-5 mb-3">
+                    <p class="footer__left-p">Finstreet 118 2561 Fintown</p>
+                    <p class="footer__left-p">Hello@finsweet.com 020 7993 2905</p>
+                </div>
+                <div class="footer__right ">
+                    <img src="../img/icons/facebook.svg" class="footer__right-img me-2" alt="social-medidas">
+                    <img src="../img/icons/twitter.svg" class="footer__right-img me-2" alt="social-medidas">
+                    <img src="../img/icons/instagramm.svg" class="footer__right-img me-2" alt="social-medidas">
+                    <img src="../img/icons/linkedin.svg" class="footer__right-img" alt="social-medidas">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../bootstrapp/js/bootstrap.bundle.min.js"></script>
+    <script src="./register.js"></script>
+</body>
+
+</html>

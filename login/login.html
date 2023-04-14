@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../bootstrapp/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="menu">
+                    <img src="../img/icons/haeder-logo.svg" alt="header-logo" class="menu__logo">
+                    <div class="hamburger">
+                        <span class="hamburger__span"></span>
+                        <span class="hamburger__span"></span>
+                        <span class="hamburger__span"></span>
+                    </div>
+                    <div class="menu__bar">
+                        <ul class="menu__ul">
+                            <li class="menu__li">
+                                <a href="../index.html" class="menu__ul-a">Home</a>
+                            </li>
+                            <li class="menu__li">
+                                <a href="../blogs/blogs.html" class="menu__ul-a">Blog</a>
+                            </li>
+                            <li class="menu__li">
+                                <a href="#" class="menu__ul-a">About Us</a>
+                            </li>
+                            <li class="menu__li">
+                                <a href="../register/register.html" class="menu__ul-a">Register</a>
+                            </li>
+                        </ul>
+                        <button class="menu__btn"><a href="#">Login</a></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="login-sec">
+            <div class="container">
+                <h1 class="login__title mt-5 mb-5">
+                    Login
+                </h1>
+                <div class="login">
+                    <form action="https://echo.htmlacademy.ru/" class="form" action="POST">
+                        <input class="form__inp form__user" type="text" placeholder="Username"> <br>
+                        <span class="form__span3 spann"></span> <br>
+                        <input class="form__inp password__inp " type="password" placeholder="Password"> <br>
+                        <span class="form__span4 spann"></span> <br>
+                        <button class="form__btn mt-5 m-lg-5">Login</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="../bootstrapp/js/bootstrap.bundle.min.js"></script>
+    <script src="./login.js"></script>
+</body>
+
+</html>

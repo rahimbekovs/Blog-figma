@@ -1,0 +1,17 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v12-latin-regular.eot');
+    src: url('../fonts/inter-v12-latin-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), url('../fonts/inter-v12-latin-regular.woff') format('woff'), url('../fonts/inter-v12-latin-regular.ttf') format('truetype'), url('../fonts/inter-v12-latin-regular.svg#Inter') format('svg');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/sen-v7-latin-regular.eot');
+    src: url('../fonts/sen-v7-latin-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/sen-v7-latin-regular.woff2') format('woff2'), url('../fonts/sen-v7-latin-regular.woff') format('woff'), url('../fonts/sen-v7-latin-regular.ttf') format('truetype'), url('../fonts/sen-v7-latin-regular.svg#Sen') format('svg');
+}
